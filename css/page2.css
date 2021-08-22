@@ -1,0 +1,47 @@
+.page2 {
+	overflow: hidden;
+	background-image: url(../img/rocket-2.png);
+}
+.textPage2 {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	word-wrap: break-word;
+	padding-top: 280px;
+	padding-left: 20px;
+	padding-bottom: 185px;
+}
+.textPage2 li {
+	list-style-type: none;
+}
+.textPage2 h1 {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 64px;
+	line-height: 87px;
+	letter-spacing: 0.1em;
+	color: #ffffff;
+}
+.textPage2 h2 {
+	margin-top: -30px;
+	font-family: Anton;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 92px;
+	line-height: 135px;
+	letter-spacing: -0.01em;
+	color: #ffffff;
+}
+.textPage2 h3 {
+	padding-left: 10px;
+	margin-top: -30px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 25px;
+	letter-spacing: 0.1em;
+	text-decoration-line: underline;
+	color: #ffffff;
+}

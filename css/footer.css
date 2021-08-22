@@ -1,0 +1,28 @@
+.footer {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.footerNav a {
+	padding-left: 20px;
+	text-decoration: none;
+	font-family: Open Sans Condensed;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 25px;
+	/* identical to box height */
+	letter-spacing: 0.1em;
+	color: #000000;
+}
+.footerNav span {
+	font-family: Open Sans Condensed;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 25px;
+	/* identical to box height */
+	letter-spacing: 0.1em;
+	color: #000000;
+}

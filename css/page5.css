@@ -1,0 +1,42 @@
+.page5 {
+	padding-top: 50px;
+	overflow: hidden;
+	background-color: black;
+}
+.page5 h2 {
+	font-family: Anton;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 64px;
+	line-height: 94px;
+	/* identical to box height */
+
+	letter-spacing: -0.01em;
+
+	color: #ffffff;
+}
+
+.page5main {
+	padding: 0 10%;
+	padding-bottom: 100px;
+}
+.page5text h4 {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 34px;
+	line-height: 46px;
+	letter-spacing: 0.1em;
+
+	color: #ffffff;
+}
+.page5text p {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 25px;
+	/* or 179% */
+	letter-spacing: 0.1em;
+	color: #ffffff;
+}

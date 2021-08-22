@@ -1,0 +1,85 @@
+.page4 {
+	display: flex;
+	align-items: center;
+	background-color: white;
+}
+.page4blocked {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.page4Block {
+	margin-left: 100px;
+	margin-top: 200px;
+	display: flex;
+	width: 370px;
+	height: 600px;
+	flex-direction: column;
+	background: #ffffff;
+	box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.07);
+}
+.date {
+	padding-left: 10px;
+	margin-top: -40px;
+	background-color: ivory;
+	width: 130px;
+	height: 52px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 14px;
+	line-height: 22px;
+	/* identical to box height */
+
+	letter-spacing: 0.05em;
+
+	color: #000000;
+}
+.page4Text h2 {
+	font-family: Open Sans Condensed;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 30px;
+	letter-spacing: 0.03em;
+
+	color: #000000;
+}
+.page4Text p {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+	/* or 171% */
+
+	letter-spacing: 0.1em;
+
+	color: #313131;
+}
+.buttonPage4 {
+	padding-top: 50px;
+	display: flex;
+	justify-content: center;
+}
+.buttonPage4 button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 290px;
+	height: 77px;
+	background: transparent;
+	border: 4px solid #000000;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 25px;
+	letter-spacing: 0.1em;
+	color: black;
+	margin: 20px;
+}
+.buttonPage4 a {
+	text-decoration: none;
+	color: black;
+}
