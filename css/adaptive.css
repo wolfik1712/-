@@ -82,14 +82,10 @@
 		margin: 0 auto;
 	}
 	.page3 h1 {
-		display: flex;
 		padding-top: 950px;
 		font-size: 570px;
-		margin-left: -500px;
 		opacity: 0.4;
-	}
-	.pimg {
-		width: 100%;
+		margin-left: -800px;
 	}
 	.page3Texted {
 		display: flex;
@@ -112,32 +108,22 @@
 	.page3Texted p {
 		font-size: 10px;
 	}
-	.page4 {
-		display: flex;
-		justify-content: center;
-		width: auto;
+	.page4 { margin: 0;
 	}
 	.page4blocked {
 		display: flex;
-		justify-content: flex-start;
-		flex-direction: row;
-		flex-wrap: wrap;
-		padding-right: 30px;
-		margin-left: 0;
+		margin: 0;
+
 	}
 	.page4Block {
-		width: 720px;
+		margin:0;
 	}
 	.page4Block p{
 		font-size: 18px;
 	}
-	.page4Block img {
-		width: 720px;
-	}
 	.buttonPage4 button {
 		display: flex;
-		margin-top: 2000px;
-		margin-left: -400px;
+		margin-top: 200px;
 	}
 	.page5 {
 		margin-top: 50px;
@@ -188,9 +174,11 @@
 	}
 	.page3 h1 {
 		margin-left: -150px;
+		background-position: center;
 	}
 	.page3Text {
 		margin-left: 460px;
+		background-position: center;
 	}
 	.page4 {
 		width: 10%;
@@ -220,9 +208,11 @@
 	}
 	.page1 {
 		width: auto;
+		background-position: center;
 	}
 	.page2 {
 		width: auto;
+		background-position: center;
 	}
 	.page3 {
 		width: auto;
@@ -265,9 +255,11 @@
 	}
 	.page1 {
 		width: auto;
+		background-position: center;
 	}
 	.page2 {
 		width: auto;
+		background-position: center;
 	}
 	.page3 {
 		width: auto;
@@ -304,26 +296,17 @@
 		width: 1100px;
 	}
 }
-@media (max-width: 600px) {
-	.container {
-		max-width: none;
-	}
-}
-@media (max-width: 320px) {
-	.container {
-		max-width: none;
-	}
-}
-
 @media (max-width: 1050px) {
 	.container {
 		overflow: hidden;
 	}
 	.page1 {
 		width: auto;
+		background-position: center;
 	}
 	.page2 {
 		width: auto;
+		background-position: center;
 	}
 	.page3 {
 		width: auto;
@@ -405,3 +388,105 @@
 	}
 	@media (max-width: 600px) {
 		.container {
+			margin: 0 auto;
+			overflow: hidden;
+		}
+		.page1 {
+			height: auto;
+			width: auto;
+			background-position: center;
+		}
+		.pageOneText {
+		}
+		.navmenu {
+			justify-content: space-around;
+			align-items: flex-start;
+			margin-left: 0;
+			font-size: 10px;
+		}
+		.page2 {
+			display: flex;
+			width: auto;
+			background-image: url(../img/rocket-2.png);
+			background-position: center;
+		}
+		.textPage2 {
+			margin-left: 40px;
+		}
+		.page3 {
+			display: flex;
+			justify-content: center;
+			background-image: url(https://github.com/wolfik1712/Space-Neo/blob/main/img/rocket-3.png?raw=true);
+			height: 400px;
+			margin: 0 auto;
+		}
+		.page3 h1 {
+			display: flex;
+			padding-top: 950px;
+			font-size: 570px;
+			margin-left: -500px;
+			opacity: 0.4;
+		}
+		.pimg {
+			width: 100%;
+		}
+		.page3Texted {
+			display: flex;
+			width: 300px;
+			height: 400px;
+			margin-left: -1250px;
+			margin-top: 1000px;
+			z-index: 2;
+			background: rgba(25, 65, 106, 0.5);
+			backdrop-filter: blur(44px);
+			background-size: auto;
+		}
+		.page3Texted p{
+			font-size: 18px;
+		}
+		.page3Texted h2 {
+			font-size: 48px;
+			margin-top: -40px;
+		}
+		.page3Texted p {
+			font-size: 10px;
+		}
+		.page4 {
+			display: flex;
+			justify-content: center;
+			width: auto;
+		}
+		.page4blocked {
+			display: flex;
+			justify-content: flex-start;
+			flex-direction: row;
+			flex-wrap: wrap;
+			padding-right: 30px;
+			margin-left: 0;
+		}
+		.page4Block {
+			width: 720px;
+		}
+		.page4Block p{
+			font-size: 18px;
+		}
+		.page4Block img {
+			width: 720px;
+		}
+		.buttonPage4 button {
+			display: flex;
+			margin-top: 2000px;
+			margin-left: -400px;
+		}
+		.page5 {
+			margin-top: 50px;
+			height: auto;
+		}
+		.page5 img {
+			width: 980px;
+		}
+		.footer {
+			display: flex;
+			justify-content: center;
+		}
+	}
