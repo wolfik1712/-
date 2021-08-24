@@ -1,13 +1,11 @@
 body {
 	margin: 0;
 	padding: 0;
-	min-width: 1170px;
 }
 body button:hover {
 	border: 4px solid blue;
 }
 .container {
-	max-width: 1440px;
 }
 .page1 {
 	background-image: url(../img/rocket-1.png);
