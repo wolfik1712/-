@@ -51,15 +51,12 @@
 
 	color: #ffffff;
 }
-.page3Texted span {
-	margin-top: -10px;
-	word-wrap: pre-line;
+.page3Texted p {
 	font-family: Open Sans;
 	font-style: normal;
 	font-weight: 600;
 	font-size: 14px;
 	line-height: 24px;
-	/* or 171% */
 	letter-spacing: 0.1em;
 	color: #ffffff;
 }
