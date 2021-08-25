@@ -39,10 +39,44 @@
 	.page4blocked {
 		justify-content: center;
 	}
+	.page3 {
+		background: url(../img/rocket-3.png);
+		background-size: cover;
+	}
+	.page3Container {
+		background: 0;
+	}
+	.page3Text {
+		margin-left: 100px;
+	}
 	.page3 h1 {
-		font-size: 169px;
+		font-size: 190px;
+		margin-left: -100px;
 	}
 	.page3Texted {
-		max-width: 300px;
+		max-width: auto;
+	}
+}
+@media (max-width: 545px) {
+	.container {
+		overflow: hidden;
+	}
+	.page3 h1 {
+		font-size: 90px;
+	}
+	.page3Texted {
+		margin-left: 45px;
+		max-width: auto;
+	}
+}
+@media (max-width: 330px) {
+	.page1 {
+		background-position: right top;
+	}
+	.page2 {
+		background-position: right;
+	}
+	.page4 {
+		width: 90%;
 	}
 }
