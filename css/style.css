@@ -9,6 +9,7 @@ body button:hover {
 }
 .page1 {
 	background-image: url(../img/rocket-1.png);
+	background-size: cover;
 	padding-top: 20px;
 	overflow: hidden;
 }

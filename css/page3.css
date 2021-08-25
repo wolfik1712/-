@@ -1,19 +1,15 @@
 .page3 {
-	margin-top: -18px;
 	background-color: black;
-	padding-bottom: 360px;
+	padding: 125px;
 }
-.pImg {
-	display: flex;
-	justify-content: center;
-	padding: 150px 0;
-	z-index: 1;
+.page3Container {
+	background-image: url(./../img/rocket-3.png);
+	background-size: cover;
+	position: relative;
+	height: 794px;
 }
+
 .page3 h1 {
-	display: flex;
-	margin-top: -880px;
-	padding-left: 10%;
-	z-index: 2;
 	font-size: 450px;
 	line-height: 645px;
 	font-family: Anton;
@@ -23,14 +19,15 @@
 	color: #ffffff;
 	mix-blend-mode: soft-light;
 	z-index: 2;
+	margin: 0;
+	text-align: center;
 }
 .page3Text {
-	margin-top: -840px;
-	margin-left: 53%;
-	align-items: center;
-	justify-content: center;
+	position: absolute;
+	top: calc(50% - 349px);
+	left: 50%;
 	background: rgba(25, 65, 106, 0.5);
-	backdrop-filter: blur(44px);
+	filter: blur(1px);
 	width: 520px;
 }
 .page3Texted {
@@ -39,7 +36,8 @@
 	align-items: center;
 	flex-direction: column;
 	justify-content: space-between;
-	height: 504px;
+	height: 638px;
+	width: 480px;
 }
 .page3Texted h2 {
 	font-family: Anton;
@@ -53,7 +51,7 @@
 
 	color: #ffffff;
 }
-.page3Texted p {
+.page3Texted span {
 	margin-top: -10px;
 	word-wrap: pre-line;
 	font-family: Open Sans;

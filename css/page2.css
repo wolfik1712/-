@@ -1,6 +1,7 @@
 .page2 {
 	overflow: hidden;
 	background-image: url(../img/rocket-2.png);
+	background-size: cover;
 }
 .textPage2 {
 	display: flex;

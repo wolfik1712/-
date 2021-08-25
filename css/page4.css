@@ -1,16 +1,17 @@
 .page4 {
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 	background-color: white;
 }
 .page4blocked {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
+	flex-wrap: wrap;
 }
 .page4Block {
-	margin-left: 100px;
-	margin-top: 200px;
+	margin: 34px;
 	display: flex;
 	width: 370px;
 	height: 600px;

@@ -3,6 +3,9 @@
 	overflow: hidden;
 	background-color: black;
 }
+.page5 img {
+	width: 100%;
+}
 .page5 h2 {
 	font-family: Anton;
 	font-style: normal;
