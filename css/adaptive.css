@@ -39,10 +39,85 @@
 	.page4blocked {
 		justify-content: center;
 	}
+	.page3 {
+		padding: 20px;
+	}
+	.page3Container {
+		background-image: url(../img/rocket-3.png);
+		background-size: cover;
+		width: auto;
+	}
+	.page3Text {
+		width: 500px;
+	}
 	.page3 h1 {
 		font-size: 169px;
 	}
-	.page3Texted {
+	.page3Texted span {
+		font-size: 18px;
 		max-width: 300px;
+	}
+}
+@media (max-width: 485px) {
+	.page3 {
+		overflow: hidden;
+		display: flex;
+		background-image: url(..//img/rocket-3.png);
+		background-position: cover;
+		margin-bottom: -140px;
+	}
+	.page3Container {
+		background: none;
+	}
+	.page3Container h1 {
+		font-size: 160px;
+		width: 100%;
+	}
+	.page3Text {
+		display: flex;
+		margin-top: -100px;
+		width: 100%;
+	}
+	.page4Block {
+		width: 100%;
+	}
+}
+@media (max-width: 356px) {
+	.container {
+		overflow: hidden;
+	}
+	.page1 {
+		background-position-x: -800px;
+	}
+	.page2 {
+		background-position-x: -950px;
+	}
+	.textPage2 {
+		margin-left: -50px;
+		margin-top: -50px;
+	}
+	.page4 {
+		padding-left: 20px;
+		margin-top: 200px;
+	}
+	.page4blocked {
+		margin-left: -20px;
+		width: 90%;
+	}
+	.buttonPage4 {
+		margin-left: -20px;
+	}
+	.footer {
+		flex-direction: column;
+	}
+	.footer a {
+		padding-left: 20px;
+	}
+	.footerNav {
+		display: flex;
+		flex-direction: column;
+	}
+	.footerNav span {
+		padding-left: 20px;
 	}
 }
